@@ -16,6 +16,12 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
+    "paths": {
+      "super-perforator": [
+        "dist/super-perforator/super-perforator",
+        "dist/super-perforator"
+      ]
+    },
     "lib": [
       "es2018",
       "dom"
